@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kamalakanth Ramani — Work</title>
+<meta name="description" content="Operator turned builder. Forecasting and AI systems that say when they don't know, with a public, tamper-evident record.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231f5c46'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='18' fill='%23fff' text-anchor='middle'%3EK%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Libre+Franklin:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f7f5f0; --paper:#fffdf8; --ink:#1b1d1c; --mut:#5d625f; --faint:#8a8f8b;
+  --line:#e2ded4; --acc:#1f5c46; --acc-soft:#e3eee8; --warn:#8a4b12; --warn-soft:#f6ebdd;
+  --serif:"Newsreader",Georgia,serif; --sans:"Libre Franklin",system-ui,sans-serif; --mono:"IBM Plex Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#121412; --paper:#191c1a; --ink:#e9ebe7; --mut:#a6aca7; --faint:#7d837e;
+    --line:#2a2e2b; --acc:#7cc4a4; --acc-soft:#1d2d26; --warn:#e0a86a; --warn-soft:#2e241a;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#121412; --paper:#191c1a; --ink:#e9ebe7; --mut:#a6aca7; --faint:#7d837e;
+  --line:#2a2e2b; --acc:#7cc4a4; --acc-soft:#1d2d26; --warn:#e0a86a; --warn-soft:#2e241a;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 var(--sans)}
+a{color:var(--acc);text-underline-offset:3px}
+.wrap{max-width:880px;margin:0 auto;padding:0 16px}
+header.top{padding:56px 0 36px;border-bottom:1px solid var(--line)}
+.kicker{font:500 12px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--faint);margin:0 0 18px}
+h1{font:500 clamp(34px,6vw,52px)/1.05 var(--serif);margin:0 0 18px;letter-spacing:-.01em}
+.lede{font:400 clamp(19px,2.6vw,23px)/1.45 var(--serif);margin:0 0 20px;max-width:680px}
+.meta{color:var(--mut);font-size:15px;margin:0;display:flex;flex-wrap:wrap;gap:6px 18px}
+.meta span{white-space:nowrap}
+section{padding:44px 0;border-bottom:1px solid var(--line)}
+h2{font:500 12px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--faint);margin:0 0 22px}
+h3{font:500 clamp(24px,3.4vw,30px)/1.15 var(--serif);margin:0 0 10px}
+h4{font:600 17px/1.3 var(--sans);margin:0 0 6px}
+p{margin:0 0 14px}
+.feature{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:28px 24px}
+.feature .sub{color:var(--mut);font-size:17px;margin:0 0 22px;max-width:640px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:10px;overflow:hidden;margin:0 0 24px}
+.stat{background:var(--paper);padding:16px 14px}
+.stat b{display:block;font:500 30px/1 var(--serif);color:var(--acc);margin-bottom:8px;font-variant-numeric:tabular-nums}
+.stat span{font-size:13px;line-height:1.35;color:var(--mut);display:block}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:20px 28px;margin:0 0 22px}
+.cols p{font-size:15.5px;color:var(--ink)}
+.cols h4{font-size:15px}
+.loss{background:var(--warn-soft);border-left:3px solid var(--warn);border-radius:0 8px 8px 0;padding:14px 16px;margin:0 0 22px;font-size:15px}
+.loss b{color:var(--warn)}
+.links{display:flex;flex-wrap:wrap;gap:10px}
+.btn{display:inline-flex;align-items:center;gap:6px;font:500 14px/1 var(--sans);padding:11px 16px;border-radius:999px;border:1px solid var(--line);color:var(--ink);text-decoration:none;background:var(--bg)}
+.btn.primary{background:var(--acc);border-color:var(--acc);color:var(--paper)}
+.btn:hover{border-color:var(--acc)}
+.btn:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:20px;display:flex;flex-direction:column}
+.card .tag{font:500 11px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--acc);background:var(--acc-soft);padding:5px 8px;border-radius:4px;align-self:flex-start;margin:0 0 12px}
+.card p{font-size:15px;color:var(--mut);flex:1}
+.card .links{margin-top:4px}
+.card .btn{padding:9px 13px;font-size:13px}
+ul.plain{list-style:none;padding:0;margin:0}
+ul.plain li{padding:12px 0;border-top:1px solid var(--line);display:grid;grid-template-columns:200px 1fr;gap:4px 20px;font-size:15px}
+ul.plain li:first-child{border-top:0;padding-top:0}
+ul.plain li b{font-weight:600}
+ul.plain li span{color:var(--mut)}
+ol.habits{counter-reset:h;list-style:none;padding:0;margin:0;display:grid;grid-template-columns:1fr 1fr;gap:22px 28px}
+ol.habits li{counter-increment:h;font-size:15.5px;color:var(--mut)}
+ol.habits li::before{content:counter(h,decimal-leading-zero);display:block;font:500 13px/1 var(--mono);color:var(--acc);margin-bottom:8px}
+ol.habits li b{display:block;color:var(--ink);font:500 20px/1.25 var(--serif);margin-bottom:4px}
+.timeline{display:grid;gap:0}
+.row{display:grid;grid-template-columns:140px 1fr;gap:4px 20px;padding:12px 0;border-top:1px solid var(--line);font-size:15px}
+.row:first-child{border-top:0;padding-top:0}
+.row .when{font:400 13px/1.6 var(--mono);color:var(--faint)}
+.row span{color:var(--mut)}
+footer{padding:32px 0 56px;color:var(--faint);font-size:14px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px}
+.theme{background:none;border:1px solid var(--line);color:var(--mut);border-radius:999px;padding:6px 12px;font:500 12px/1 var(--sans);cursor:pointer}
+@media (max-width:720px){
+  header.top{padding:40px 0 28px}
+  .stats{grid-template-columns:1fr 1fr}
+  .cols,.grid,ol.habits{grid-template-columns:1fr}
+  ul.plain li,.row{grid-template-columns:1fr}
+  .feature{padding:22px 16px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="top">
+  <p class="kicker">Portfolio · updated 10 Nov 2026</p>
+  <h1>Kamalakanth Ramani</h1>
+  <p class="lede">I build forecasting and AI systems that say “I don’t know” when they should, and I prove their record in public: every prediction is hashed and anchored to Bitcoin before the result exists.</p>
+  <p class="meta"><span>Chennai, India</span><span>20 years in global ad operations</span><span>Building alone since 2026</span><span><a href="https://github.com/rkkant-design">github.com/rkkant-design</a></span></p>
+</header>
+
+<section aria-labelledby="f">
+  <h2 id="f">Featured</h2>
+  <div class="feature">
+    <h3>Psephos — a forecaster that is only allowed to call it when the evidence agrees</h3>
+    <p class="sub">Elections, sport and world events. Independent methods each answer the question; a hard CALL needs two or more to agree past 95%. Otherwise it says WATCH and abstains, in public.</p>
+
+    <div class="stats" role="list">
+      <div class="stat" role="listitem"><b>26/26</b><span>calls right on the 3 Nov 2026 US midterms, from 71 races pre-registered</span></div>
+      <div class="stat" role="listitem"><b>32/35</b><span>live, pre-registered calls right across all events so far</span></div>
+      <div class="stat" role="listitem"><b>28/28</b><span>calls right in a back-test of 46 Indian state elections, 2013–2025</span></div>
+      <div class="stat" role="listitem"><b>0.126</b><span>Brier score over 202 scored probabilities (0.25 = coin flip)</span></div>
+    </div>
+
+    <div class="cols">
+      <div>
+        <h4>How the record is kept honest</h4>
+        <p>Every forecast goes into an append-only ledger with a SHA-256 hash before the outcome, and the hashes are stamped to Bitcoin via OpenTimestamps. Every probability is scored, abstentions included, because a hit rate on calls alone can be gamed.</p>
+      </div>
+      <div>
+        <h4>What the instruments are</h4>
+        <p>A structural vote model built from decades of results, a poll model corrected by each pollster’s measured error, de-vigged prediction-market prices, and an LLM research forecaster that is barred from seeing market odds.</p>
+      </div>
+    </div>
+
+    <p class="loss"><b>Where it lost, published on the site.</b> All 3 live misses came from one brand-new party in Tamil Nadu; a new-entrant rule went into the engine within a week. On US races, prediction markets beat my structural model (Brier 0.033 vs 0.093), and the app says so. On the night of the midterms, every upset sat in a race the engine had refused to call.</p>
+
+    <div class="links">
+      <a class="btn primary" href="https://rkkant-design.github.io/psephos/">Open the live app →</a>
+      <a class="btn" href="https://github.com/rkkant-design/psephos">Code and ledgers</a>
+    </div>
+  </div>
+</section>
+
+<section aria-labelledby="w">
+  <h2 id="w">More work</h2>
+  <div class="grid">
+    <article class="card">
+      <span class="tag">AI search · research + demo</span>
+      <h4>GeoPilot</h4>
+      <p>Why don’t ChatGPT and Gemini recommend your brand, and did the fix work? Built on a manual program of about 100,000 AI answers (5 engines, 3 surfaces, 8 repeats each). Market research showed measurement is a commodity and proof of lift is missing, so the platform proves fixes with pre-registered holdout experiments.</p>
+      <div class="links"><a class="btn" href="https://rkkant-design.github.io/geopilot/">Clickable demo</a><a class="btn" href="https://github.com/rkkant-design/geopilot">Method and code</a></div>
+    </article>
+    <article class="card">
+      <span class="tag">Enterprise AI · product</span>
+      <h4>FieldNote</h4>
+      <p>A library of how named companies actually deploy AI, told by their own operators, each record graded A–D for evidence and quotes linked to the timestamp in the source. A curator pipeline does intake, extraction and grading; the analyst layer is labelled apart from the operator’s claims.</p>
+      <div class="links"><a class="btn" href="https://github.com/rkkant-design/Clearlode">Code</a></div>
+    </article>
+    <article class="card">
+      <span class="tag">Consumer · live</span>
+      <h4>IntelliTrip Studio</h4>
+      <p>An AI road-trip planner: day-by-day plans, a live traffic map, “change this day” without redoing the trip, and a one-tap share to family on WhatsApp. Model keys stay server-side behind serverless functions.</p>
+      <div class="links"><a class="btn" href="https://intelitrip.netlify.app">Live app</a><a class="btn" href="https://github.com/rkkant-design/intellitrip-studio-">Code</a></div>
+    </article>
+    <article class="card">
+      <span class="tag">Fintech · live</span>
+      <h4>WealthPilot AI</h4>
+      <p>Research for Indian stocks (NSE/BSE): live prices, with AI analysis clearly labelled as an estimate. I rebuilt an insecure prototype from the ground up: real sign-in, per-user data rules, and a fix for a price bug that showed a −37% day.</p>
+      <div class="links"><a class="btn" href="https://aiwealthpilot.netlify.app">Live app</a><a class="btn" href="https://github.com/rkkant-design/WealthAI">Code</a></div>
+    </article>
+  </div>
+</section>
+
+<section aria-labelledby="c">
+  <h2 id="c">Client work · names confidential</h2>
+  <ul class="plain">
+    <li><b>Driver-document review</b><span>AI pre-fill plus a blind, double-entry audit for a ride-hailing company, designed so the audit stays independent of the AI it checks.</span></li>
+    <li><b>Account relationship agent</b><span>Maps who knows whom between an IT services firm and a large tech client; specification and architecture.</span></li>
+    <li><b>Video and identity</b><span>Video content intelligence, video analysis, and identity and document verification prototypes.</span></li>
+    <li><b>Workflow</b><span>Creative approval automation, and a portfolio and idea management platform.</span></li>
+  </ul>
+</section>
+
+<section aria-labelledby="h">
+  <h2 id="h">How I work</h2>
+  <ol class="habits">
+    <li><b>Commit before you know.</b>Forecasts are sealed before results; fixes are tested against prompts chosen in advance. Nothing is judged after the fact.</li>
+    <li><b>Abstain out loud.</b>Psephos says WATCH. WealthPilot labels estimates. FieldNote’s assistant won’t answer past its verified records.</li>
+    <li><b>Publish the losses.</b>The misses and the benchmarks I lose sit on the same page as the wins.</li>
+    <li><b>Ship it live, alone.</b>Research, data, models, interface and deployment, one person, with keys and costs kept server-side.</li>
+  </ol>
+</section>
+
+<section aria-labelledby="b">
+  <h2 id="b">Background</h2>
+  <div class="timeline">
+    <div class="row"><span class="when">2026 – now</span><div><b>TrueInfo Labs</b>, Chennai · Program Manager, AI Solution Consulting &amp; Product Incubation<br><span>Concept to deployed product for a portfolio of AI applications.</span></div></div>
+    <div class="row"><span class="when">2018 – 2026</span><div><b>iOPEX Technologies</b>, Chennai · Senior Project Manager, Presales &amp; Growth<br><span>Led global teams of 400+. Turnaround time down 35–40%, manual reporting down about half, proposal win rate up 15%.</span></div></div>
+    <div class="row"><span class="when">2005 – 2018</span><div><b>DXC Technology, AOL, Yahoo, CSS Corp</b><br><span>Global digital ad operations across ad servers and programmatic platforms.</span></div></div>
+    <div class="row"><span class="when">Education</span><div>B.E., Mookambigai College of Engineering, Tiruchi (2005) · Product Management Using Generative and Agentic AI, BITSoM (2026)</div></div>
+  </div>
+</section>
+
+<footer>
+  <span>Kamalakanth Ramani · Chennai</span>
+  <button class="theme" type="button" id="themeBtn" aria-label="Switch light or dark theme">Theme</button>
+</footer>
+
+</div>
+<script>
+(function(){
+  var b=document.getElementById('themeBtn'),r=document.documentElement,k='kr-theme';
+  try{var s=localStorage.getItem(k);if(s)r.setAttribute('data-theme',s);}catch(e){}
+  b.addEventListener('click',function(){
+    var cur=r.getAttribute('data-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');
+    var n=cur==='dark'?'light':'dark';r.setAttribute('data-theme',n);
+    try{localStorage.setItem(k,n);}catch(e){}
+  });
+})();
+</script>
+</body>
+</html>
