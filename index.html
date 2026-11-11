@@ -57,7 +57,9 @@ p{margin:0 0 14px}
 .btn.primary{background:var(--acc);border-color:var(--acc);color:var(--paper)}
 .btn:hover{border-color:var(--acc)}
 .btn:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
-.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+@media (max-width:860px){.grid{grid-template-columns:1fr 1fr}}
+.card p{font-size:14.5px}
 .card{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:20px;display:flex;flex-direction:column}
 .card .tag{font:500 11px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--acc);background:var(--acc-soft);padding:5px 8px;border-radius:4px;align-self:flex-start;margin:0 0 12px}
 .card p{font-size:15px;color:var(--mut);flex:1}
@@ -137,31 +139,31 @@ footer{padding:32px 0 56px;color:var(--faint);font-size:14px;display:flex;flex-w
     <article class="card">
       <span class="tag">AI search · research + demo</span>
       <h4>GeoPilot</h4>
-      <p>Why don’t ChatGPT and Gemini recommend your brand, and did the fix work? Built on a manual program of about 100,000 AI answers (5 engines, 3 surfaces, 8 repeats each). Market research showed measurement is a commodity and proof of lift is missing, so the platform proves fixes with pre-registered holdout experiments.</p>
-      <div class="links"><a class="btn" href="https://rkkant-design.github.io/geopilot/">Clickable demo</a><a class="btn" href="https://github.com/rkkant-design/geopilot">Method and code</a></div>
+      <p>Why AI engines like ChatGPT and Gemini don’t recommend your brand — and proof the fix worked, using pre-registered holdout experiments, not vanity metrics.</p>
+      <div class="links"><a class="btn" href="https://rkkant-design.github.io/geopilot/">Demo</a><a class="btn" href="https://github.com/rkkant-design/geopilot">Code</a></div>
     </article>
     <article class="card">
       <span class="tag">Enterprise AI · product</span>
       <h4>FieldNote</h4>
-      <p>A library of how named companies actually deploy AI, told by their own operators, each record graded A–D for evidence and quotes linked to the timestamp in the source. A curator pipeline does intake, extraction and grading; the analyst layer is labelled apart from the operator’s claims.</p>
-      <div class="links"><a class="btn" href="https://rkkant-design.github.io/fieldnote/">Clickable demo</a><a class="btn" href="https://github.com/rkkant-design/Clearlode">Code</a></div>
+      <p>A library of how named companies actually deploy AI, in their own operators’ words — each record graded A–D with quotes linked to the source.</p>
+      <div class="links"><a class="btn" href="https://rkkant-design.github.io/fieldnote/">Demo</a><a class="btn" href="https://github.com/rkkant-design/Clearlode">Code</a></div>
     </article>
     <article class="card">
       <span class="tag">RAG + MCP · open source</span>
       <h4>Footnote</h4>
-      <p>A document assistant that answers from your own PDFs and nothing else: it cites the document and page it used, like a footnote, and says “not in the documents” instead of guessing. Retrieval over a vector store, checked by an evaluation set. It also ships as an MCP server, so any AI agent — like Claude Desktop — can plug in and search the documents through one standard interface.</p>
-      <div class="links"><a class="btn" href="https://rkkant-design.github.io/footnote/">Try the demo</a><a class="btn" href="https://github.com/rkkant-design/rag-pdf-chatbot">Code</a></div>
+      <p>Answers from your own PDFs and nothing else — cites the page it used and refuses when it doesn’t know. Ships as an MCP server any AI agent can plug into.</p>
+      <div class="links"><a class="btn" href="https://rkkant-design.github.io/footnote/">Demo</a><a class="btn" href="https://github.com/rkkant-design/rag-pdf-chatbot">Code</a></div>
     </article>
     <article class="card">
       <span class="tag">Consumer · live</span>
       <h4>IntelliTrip</h4>
-      <p>An AI road-trip planner: day-by-day plans, a live traffic map, “change this day” without redoing the trip, and a one-tap share to family on WhatsApp. Model keys stay server-side behind serverless functions.</p>
+      <p>An AI road-trip planner with day-by-day plans, a live traffic map, and one-tap WhatsApp sharing. Model keys stay server-side.</p>
       <div class="links"><a class="btn" href="https://intelitrip.netlify.app">Live app</a><a class="btn" href="https://github.com/rkkant-design/intellitrip-studio-">Code</a></div>
     </article>
     <article class="card">
       <span class="tag">Fintech · live</span>
       <h4>WealthPilot AI</h4>
-      <p>Research for Indian stocks (NSE/BSE): live prices, with AI analysis clearly labelled as an estimate. I rebuilt an insecure prototype from the ground up: real sign-in, per-user data rules, and a fix for a price bug that showed a −37% day.</p>
+      <p>AI research for Indian stocks: live prices, with analysis labelled as an estimate. Rebuilt from an insecure prototype with real sign-in and per-user rules.</p>
       <div class="links"><a class="btn" href="https://aiwealthpilot.netlify.app">Live app</a><a class="btn" href="https://github.com/rkkant-design/WealthAI">Code</a></div>
     </article>
   </div>
