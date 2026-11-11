@@ -1,0 +1,1660 @@
+[
+ {
+  "id": "8g1N_a3h9H0",
+  "title": "How to Actually Tokenmaxx and Save Millions — Alvin Pane, OutRival",
+  "headline": "Token Maxing Reclaimed: Efficiency Over Volume",
+  "summary": "OutReval slashes prompt size by 51%, boosting AI efficiency and quality. The real legends make every token count.",
+  "company": "OutReval",
+  "operator": "Alvin (Head of Agent Intelligence, OutReval)",
+  "grade": "C",
+  "gradeRationale": "First-party account with qualitative and some quantitative claims, but no externally verified metrics.",
+  "sourceType": "keynote",
+  "recordedAt": "2024-06-01",
+  "event": "OutReval AI Optimization Summit",
+  "func": "customer-support",
+  "videoUrl": "https://www.youtube.com/watch?v=8g1N_a3h9H0",
+  "thumbnail": "https://img.youtube.com/vi/8g1N_a3h9H0/maxresdefault.jpg",
+  "tags": [
+   "tokens",
+   "optimization",
+   "prompt"
+  ],
+  "insights": [
+   "Token usage is a cost, not a measure of AI productivity; efficiency should be maximized.",
+   "Automated prompt optimization and benchmarking can dramatically reduce compute costs and latency.",
+   "Statistical validation and manual review are essential to ensure quality when optimizing AI pipelines."
+  ],
+  "outcomes": [
+   "51% prompt reduction",
+   "Ceiling test benchmarking",
+   "Millions saved in compute"
+  ],
+  "approach": "Classifying customer intents for companies using AI agents, handling edge cases and ambiguous inputs.",
+  "solutionName": "Customer Intent Classification",
+  "stack": [
+   "DSPI",
+   "Jeepa",
+   "OpenTelemetry"
+  ],
+  "steps": [
+   "Intent classification",
+   "Prompt optimization",
+   "Model downsizing",
+   "Shadow deployment",
+   "Manual review"
+  ],
+  "channels": [
+   "Phone",
+   "Text",
+   "Email"
+  ],
+  "enablingTech": [
+   {
+    "label": "Prompt Optimization Frameworks",
+    "text": "Frameworks like DSPI and optimizers like Jeepa automate prompt shrinking and benchmarking, while OpenTelemetry enables detailed tracing and measurement."
+   }
+  ],
+  "orgPrereq": "Organizations must shift from maximizing token usage to maximizing intelligence per token, requiring new measurement, optimization, and release processes for AI systems.",
+  "whyItMatters": "Optimizing token usage in AI pipelines reduces compute costs, improves latency, and creates architectural headroom for more capabilities, directly impacting business margins.",
+  "owner": {
+   "role": "Responsible for deploying and optimizing AI agents in production environments.",
+   "context": "Oversees digital worker pipelines, cost, and quality at scale.",
+   "persona": "AI Product Owner"
+  },
+  "pitfalls": [
+   {
+    "label": "Model Variance and Overfitting",
+    "text": "Downsizing models or prompts can introduce new points of failure and overfitting, potentially degrading quality in critical categories."
+   }
+  ],
+  "quotes": [
+   {
+    "quote": "Tokens aren't the work. They're what you pay to get the work done.",
+    "speaker": null,
+    "t": null
+   },
+   {
+    "quote": "The real token legends are the ones making every single token count.",
+    "speaker": null,
+    "t": 656
+   }
+  ],
+  "enrichment": {
+   "roi": {
+    "formula": "ROI = (value of the outcome) - (platform usage + integration build + ongoing ops)",
+    "missing": "No information on baseline costs, value of token reduction, or operational savings; cannot compute true ROI.",
+    "claimed_benefit": "51% reduction in instruction tokens"
+   },
+   "cost": {
+    "note": "OutReval did not disclose spend.",
+    "drivers": [
+     "Platform licensing or usage fees",
+     "Integration and deployment build costs",
+     "Ongoing operations and monitoring"
+    ],
+    "disclosed": false
+   },
+   "deployer": "OutReval",
+   "provenance": "FieldNote analyst layer: market context, cost/ROI framework, readiness and metric definitions, compiled from the record plus general category knowledge. Not the deployer words unless quoted.",
+   "alternatives": [
+    {
+     "used": "OpenTelemetry",
+     "options": [
+      "Datadog",
+      "New Relic",
+      "Dynatrace",
+      "Splunk Observability"
+     ],
+     "category": "Observability/Telemetry"
+    }
+   ],
+   "prerequisites": [
+    "Access to labeled customer interaction data for training and evaluation",
+    "Technical team familiar with AI/ML model deployment and monitoring",
+    "Integration capability with existing customer engagement platforms",
+    "Observability infrastructure to support OpenTelemetry",
+    "Security and compliance review for data handling"
+   ],
+   "time_to_value": "Not disclosed",
+   "metric_definitions": [
+    {
+     "means": "A decrease in the number of instruction tokens required for customer intent classification, which may indicate improved model efficiency or lower compute costs. Hygiene caveat: Efficiency gains (like token reduction) do not necessarily translate to improved resolution, containment, or customer satisfaction. Always clarify whether efficiency impacts quality or customer experience.",
+     "metric": "51% reduction in instruction tokens"
+    }
+   ]
+  }
+ },
+ {
+  "id": "CZOUMN8Je6w",
+  "title": "New Way Now: Smyths Toys automates 60% of customer service with AI",
+  "headline": "Meet the AI Leaders at Smyths Toys",
+  "summary": "Smyths Toys introduces its AI innovation team, signaling a new era of tech-driven retail.",
+  "company": "Smyths Toys",
+  "operator": "Adam Sexton (Head of AI Innovation, Smyths Toys)",
+  "grade": "D",
+  "gradeRationale": "Only introductions, no technical or outcome evidence provided.",
+  "sourceType": "interview",
+  "recordedAt": "2024-06-01",
+  "event": "Smyths Toys AI Team Introduction",
+  "func": "customer-support",
+  "videoUrl": "https://www.youtube.com/watch?v=CZOUMN8Je6w",
+  "thumbnail": "https://img.youtube.com/vi/CZOUMN8Je6w/maxresdefault.jpg",
+  "tags": [
+   "innovation",
+   "AI",
+   "team"
+  ],
+  "insights": [
+   "Smyths Toys has established a dedicated AI innovation team.",
+   "Leadership roles in AI are critical for driving organizational change.",
+   "AI development is a strategic priority for retail organizations."
+  ],
+  "outcomes": [
+   "AI leadership announced",
+   "Team formation",
+   "Retail innovation"
+  ],
+  "approach": "Establishing a dedicated AI team to drive innovation and development within the organization.",
+  "solutionName": "AI Team Leadership",
+  "stack": [
+   "AI development platforms"
+  ],
+  "steps": [
+   "Hiring AI experts",
+   "Defining AI strategy",
+   "Implementing AI projects"
+  ],
+  "channels": [
+   "Internal operations"
+  ],
+  "enablingTech": [
+   {
+    "label": "AI Development Platforms",
+    "text": "Platforms and tools that support the creation and deployment of AI solutions."
+   }
+  ],
+  "orgPrereq": "The formation of an AI innovation team signals a shift towards technology-driven decision-making and organizational transformation.",
+  "whyItMatters": "By investing in AI leadership and development, Smyths Toys positions itself to leverage emerging technologies for business growth.",
+  "owner": {
+   "role": "Head of AI Innovation",
+   "persona": "AI Leader",
+   "description": "Adam Sexton leads AI innovation efforts at Smyths Toys, overseeing strategy and implementation.",
+   "organization": "Smyths Toys"
+  },
+  "pitfalls": [
+   {
+    "label": "Talent Acquisition",
+    "text": "Recruiting and retaining skilled AI professionals can be challenging in a competitive market."
+   }
+  ],
+  "quotes": [
+   {
+    "quote": "I'm Adam Sexton. I'm the head of AI innovation at Smyths Toys.",
+    "speaker": "Adam Sexton",
+    "t": 19
+   },
+   {
+    "quote": "Michal Bondarowicz. I am senior AI developer at Smyths Toys.",
+    "speaker": "Michal Bondarowicz",
+    "t": 25
+   }
+  ],
+  "enrichment": {
+   "roi": {
+    "formula": "ROI = (value of the outcome) - (platform usage + integration build + ongoing ops)",
+    "missing": "No quantified business impact, cost, or value of the outcome disclosed",
+    "claimed_benefit": "AI innovation team created"
+   },
+   "cost": {
+    "note": "Smyths Toys did not disclose spend.",
+    "drivers": [
+     "Platform licensing or usage fees",
+     "Integration and development build costs",
+     "Ongoing operational and maintenance expenses"
+    ],
+    "disclosed": false
+   },
+   "deployer": "Smyths Toys",
+   "provenance": "FieldNote analyst layer: market context, cost/ROI framework, readiness and metric definitions, compiled from the record plus general category knowledge. Not the deployer words unless quoted.",
+   "alternatives": [
+    {
+     "used": "AI development platforms",
+     "options": [
+      "Google AI Platform",
+      "Microsoft Azure Machine Learning",
+      "Amazon SageMaker",
+      "IBM Watson Studio"
+     ],
+     "category": "AI development platform"
+    }
+   ],
+   "prerequisites": [
+    "Access to AI development platforms",
+    "Skilled AI development personnel",
+    "Clear leadership or ownership for AI initiatives",
+    "Defined business objectives for AI innovation",
+    "Data infrastructure to support AI projects"
+   ],
+   "time_to_value": "Not disclosed",
+   "metric_definitions": [
+    {
+     "means": "A team dedicated to AI innovation was established. This is an activity/output metric, not a business outcome. No quantified impact, deflection, resolution, or CSAT reported—ask for these to assess true value. Beware: team creation does not guarantee business results.",
+     "metric": "AI innovation team created"
+    }
+   ]
+  }
+ },
+ {
+  "id": "EhaC0uZkqIo",
+  "title": "Webinar | Glasgow Life's AI Journey with Talkative & Commsworld",
+  "headline": "Glasgow Life boosts customer service with AI chatbot",
+  "summary": "Glasgow Life's new AI chatbot answered 90%+ of queries, increased engagement by 30%, and improved accessibility for all users.",
+  "company": "Glasgow Life",
+  "operator": "Bob Peek (Digital and Customer Experience Manager, Glasgow Life)",
+  "grade": "B",
+  "gradeRationale": "First-party operator describes their own deployment with specific quantified outcomes and metrics.",
+  "sourceType": "webinar",
+  "recordedAt": "2024-03-15",
+  "event": "Talkative Webinar: Glasgow Life AI Deployment",
+  "func": "customer-support",
+  "videoUrl": "https://www.youtube.com/watch?v=EhaC0uZkqIo",
+  "thumbnail": "https://img.youtube.com/vi/EhaC0uZkqIo/maxresdefault.jpg",
+  "tags": [
+   "chatbot",
+   "accessibility",
+   "iteration"
+  ],
+  "insights": [
+   "Iterative, collaborative deployment enabled rapid, successful AI chatbot implementation in just four weeks.",
+   "AI chatbot improved both customer and staff experience, increasing answer rates and reducing manual workload.",
+   "Multilingual and accessible AI support is critical for public sector organizations serving diverse populations.",
+   "Staff involvement and transparent communication are essential for trust and adoption of AI solutions."
+  ],
+  "outcomes": [
+   "90%+ answer rate",
+   "30% conversation growth",
+   "Multilingual support"
+  ],
+  "approach": "Automated handling of high-volume, repetitive customer inquiries across Glasgow Life and Glasgow Club websites, supporting both public users and internal staff.",
+  "solutionName": "AI Chatbot for Customer Service",
+  "stack": [
+   "Talkative AI Chatbot",
+   "Website integration",
+   "Knowledge base management"
+  ],
+  "steps": [
+   "Answering membership, pricing, and facility questions",
+   "Providing multilingual support",
+   "Assisting staff with customer responses",
+   "Routing complex queries to human agents"
+  ],
+  "channels": [
+   "Website chat",
+   "Potential future: Voice AI (phone)"
+  ],
+  "enablingTech": [
+   {
+    "label": "AI Chatbot Platform",
+    "text": "Talkative AI chatbot platform with prompt-based knowledge base, multilingual support, and integration with web and future voice channels."
+   }
+  ],
+  "orgPrereq": "The deployment required cross-team collaboration, iterative testing, and staff involvement, resulting in improved workflows, reduced manual workload, and new opportunities for internal knowledge sharing.",
+  "whyItMatters": "The AI chatbot reduced manual workload, improved customer satisfaction, enabled multilingual and accessible support, and allowed staff to focus on complex cases, driving higher engagement and operational efficiency.",
+  "owner": {
+   "role": "Oversees digital customer interactions and AI deployment for Glasgow Life's sport services",
+   "persona": "Digital and Customer Experience Manager",
+   "organization": "Glasgow Life"
+  },
+  "pitfalls": [
+   {
+    "label": "Knowledge Base Quality",
+    "text": "Success depends on the quality and completeness of the knowledge base; poor content limits chatbot effectiveness."
+   },
+   {
+    "label": "Staff Concerns",
+    "text": "Staff may fear job loss or be resistant to AI unless involved and reassured about the technology's supportive role."
+   },
+   {
+    "label": "Short Implementation Timeline",
+    "text": "The four-week implementation window posed a risk to successful deployment and required intense collaboration."
+   }
+  ],
+  "quotes": [
+   {
+    "quote": "Within a week of the testing with the talkative solution we were well over the 90% figure for answers.",
+    "speaker": null,
+    "t": 1366
+   },
+   {
+    "quote": "Don't be afraid of the implementation. It's actually very easy. As soon as you are a bit comfortable that the knowledge base you have is good enough, just put it in front of users.",
+    "speaker": null,
+    "t": 735
+   },
+   {
+    "quote": "Bringing people with you...get them involved in the process so that they can see the results of of their contribution as well.",
+    "speaker": null,
+    "t": 1799
+   }
+  ],
+  "enrichment": {
+   "roi": {
+    "formula": "ROI = (value of the outcome) - (platform usage + integration build + ongoing ops)",
+    "missing": "No baseline volumes, financial values, or cost data provided; cannot compute true ROI.",
+    "claimed_benefit": "Over 90% (previously 80%), 30% growth, 450–800"
+   },
+   "cost": {
+    "note": "Glasgow Life did not disclose spend.",
+    "drivers": [
+     "Platform licensing or usage fees",
+     "Integration and implementation costs",
+     "Ongoing maintenance and knowledge base updates"
+    ],
+    "disclosed": false
+   },
+   "deployer": "Glasgow Life",
+   "provenance": "FieldNote analyst layer: market context, cost/ROI framework, readiness and metric definitions, compiled from the record plus general category knowledge. Not the deployer words unless quoted.",
+   "alternatives": [
+    {
+     "used": "Talkative AI Chatbot",
+     "options": [
+      "Zendesk Answer Bot",
+      "Intercom Fin",
+      "Freshdesk Freddy",
+      "LivePerson",
+      "Ada"
+     ],
+     "category": "AI Chatbot for Customer Service"
+    }
+   ],
+   "prerequisites": [
+    "Existing, accessible website for integration",
+    "Curated and maintained knowledge base",
+    "Internal team for chatbot management and oversight",
+    "Clear customer service workflows and escalation paths"
+   ],
+   "time_to_value": "Not disclosed",
+   "metric_definitions": [
+    {
+     "means": "This appears to refer to a percentage metric, likely deflection or containment rate (e.g., % of inquiries handled by the chatbot). Note: Deflection (chatbot handles without human) is not the same as resolution (customer's issue is actually solved) or containment (chatbot session doesn't escalate). Always clarify which is being measured.",
+     "metric": "Over 90% (previously 80%)"
+    },
+    {
+     "means": "This is a relative growth metric, but the base and what is growing (e.g., volume, engagement, resolution) is not specified. Efficiency gains do not always equate to quality or customer satisfaction. Clarify what is growing and how it is measured.",
+     "metric": "30% growth"
+    },
+    {
+     "means": "This appears to be a volume metric (e.g., number of chats handled), but the time period and context are not specified. Volume alone does not indicate quality, efficiency, or customer experience. Always seek supporting metrics like CSAT or resolution rate.",
+     "metric": "450–800"
+    }
+   ]
+  }
+ },
+ {
+  "id": "pyvRID_CZZU",
+  "title": "We Built an AI Support Agent That Resolves 80% of Tickets — AssemblyAI",
+  "headline": "AssemblyAI's Joey Bot Resolves 80% of Support Tickets Autonomously",
+  "summary": "Joey, our agentic AI support bot, now handles 80% of customer tickets end-to-end, freeing engineers for high-value work.",
+  "company": "AssemblyAI",
+  "operator": "Matt Lawler (Forward Deployed Engineer, AssemblyAI)",
+  "grade": "B",
+  "gradeRationale": "First-party operator with specific quantified outcomes and deployment details.",
+  "sourceType": "keynote",
+  "recordedAt": "2024-06-01",
+  "event": "AssemblyAI Conference 2024",
+  "func": "customer-support",
+  "videoUrl": "https://www.youtube.com/watch?v=pyvRID_CZZU",
+  "thumbnail": "https://img.youtube.com/vi/pyvRID_CZZU/maxresdefault.jpg",
+  "tags": [
+   "automation",
+   "voice",
+   "support"
+  ],
+  "insights": [
+   "Agentic AI bots can dramatically scale customer support, resolving the majority of inquiries autonomously.",
+   "Integrating voice capabilities into support bots enhances accessibility and product dogfooding.",
+   "Automating routine support frees engineers to focus on complex, high-value customer relationships."
+  ],
+  "outcomes": [
+   "80% resolution rate",
+   "Voice and text support",
+   "Deployed for $700/month"
+  ],
+  "approach": "An AI-powered support agent (Joey) that autonomously handles customer inquiries, onboarding, and technical support for AssemblyAI's API users.",
+  "solutionName": "Agentic Support Bot for API Onboarding",
+  "stack": [
+   "AssemblyAI Voice Agent API",
+   "Voyage embeddings",
+   "Railway deployment",
+   "Pylon for metrics",
+   "Cloud Agent SDK"
+  ],
+  "steps": [
+   "Answers technical and commercial questions",
+   "Remembers past conversations",
+   "Searches and cites documentation",
+   "Writes and debugs code",
+   "Escalates complex issues to humans",
+   "Handles voice and text interactions"
+  ],
+  "channels": [
+   "Website chat widget",
+   "Contact sales form",
+   "Support email alias",
+   "Voice interface",
+   "Potential phone support"
+  ],
+  "enablingTech": [
+   {
+    "label": "Voice Agent API",
+    "text": "AssemblyAI's Voice Agent API enables real-time, low-latency speech-to-text, LLM, and text-to-speech integration for agentic voice interactions."
+   }
+  ],
+  "orgPrereq": "Automating support with agentic AI allows AssemblyAI to scale customer onboarding and support without proportionally increasing headcount, freeing engineers to focus on high-value relationships and product improvements.",
+  "whyItMatters": "By deploying an agentic AI support bot, AssemblyAI dramatically increased support scalability, improved customer experience, and reduced operational costs, enabling the team to focus on high-value, human-led deals.",
+  "owner": {
+   "role": "Customer-facing technical expert, onboarding and supporting API users, automating support",
+   "context": "Matt Lawler and similar roles at AssemblyAI, responsible for customer success and technical integration",
+   "persona": "Forward Deployed Engineer"
+  },
+  "pitfalls": [
+   {
+    "label": "Escalation Limitations",
+    "text": "Some complex or sensitive issues (e.g., legal agreements, pricing negotiations) still require human intervention, and incomplete automation could lead to customer frustration if not handled smoothly."
+   }
+  ],
+  "quotes": [
+   {
+    "quote": "If you're an FTE at your company, you need to be dog fooding your own product all the time.",
+    "speaker": null,
+    "t": null
+   },
+   {
+    "quote": "Try to automate yourself out of a job. I think that should be your role every single day.",
+    "speaker": null,
+    "t": 240
+   }
+  ],
+  "enrichment": {
+   "roi": {
+    "formula": "ROI = (value of the outcome) - (platform usage + integration build + ongoing ops)",
+    "missing": "No context for what the 80% refers to (e.g., deflection, resolution, efficiency, etc.), no baseline or value of outcome, and no cost inputs.",
+    "claimed_benefit": "80%"
+   },
+   "cost": {
+    "note": "AssemblyAI did not disclose spend.",
+    "drivers": [
+     "Platform licensing or usage fees",
+     "Integration build and customization",
+     "Ongoing cloud operations and monitoring",
+     "Support and maintenance"
+    ],
+    "disclosed": false
+   },
+   "deployer": "AssemblyAI",
+   "provenance": "FieldNote analyst layer: market context, cost/ROI framework, readiness and metric definitions, compiled from the record plus general category knowledge. Not the deployer words unless quoted.",
+   "alternatives": [
+    {
+     "used": "AssemblyAI Voice Agent API",
+     "options": [
+      "Google Cloud Speech-to-Text",
+      "Microsoft Azure Speech Service",
+      "Amazon Transcribe",
+      "Deepgram"
+     ],
+     "category": "Voice Agent APIs / Speech AI APIs"
+    },
+    {
+     "used": "Voyage embeddings",
+     "options": [
+      "OpenAI Embeddings",
+      "Cohere Embeddings",
+      "Pinecone",
+      "Weaviate"
+     ],
+     "category": "Embeddings / Vector Search"
+    },
+    {
+     "used": "Railway deployment",
+     "options": [
+      "Heroku",
+      "Vercel",
+      "Render",
+      "AWS Elastic Beanstalk"
+     ],
+     "category": "Cloud Deployment Platforms"
+    },
+    {
+     "used": "Pylon for metrics",
+     "options": [
+      "Datadog",
+      "New Relic",
+      "Prometheus",
+      "Grafana Cloud"
+     ],
+     "category": "Observability / Metrics Platforms"
+    }
+   ],
+   "prerequisites": [
+    "API integration capability",
+    "Familiarity with cloud deployment platforms",
+    "Access to conversational AI/voice agent infrastructure",
+    "Ability to monitor and analyze metrics",
+    "Team skilled in embedding models and SDK usage"
+   ],
+   "time_to_value": "Not disclosed",
+   "metric_definitions": [
+    {
+     "means": "A percentage outcome was claimed, but the record does not specify what this refers to (e.g., deflection, resolution, efficiency, etc.). Hygiene caveat: Deflection does not equal resolution or containment; efficiency does not equal quality; experience does not equal volume. Ask for precise definitions such as deflection, resolution, or CSAT.",
+     "metric": "80%"
+    }
+   ]
+  }
+ },
+ {
+  "id": "YryHFSVpgAU",
+  "title": "I Replaced a $25,000 Customer Support Staff with an AI Agent",
+  "headline": "AI Agent Replaces €25K Customer Support Team",
+  "summary": "Automated 75% of support, cut costs, and improved sales for a Shopify e-commerce client.",
+  "company": "Chatimize",
+  "operator": "Unspecified Presenter (AI Automation Consultant, Chatimize)",
+  "grade": "B",
+  "gradeRationale": "First-party operator describing their own deployment with specific quantified outcomes.",
+  "sourceType": "presentation",
+  "recordedAt": "2024-03-01",
+  "event": "Chatimize YouTube Channel AI Case Study",
+  "func": "customer-support",
+  "videoUrl": "https://www.youtube.com/watch?v=YryHFSVpgAU",
+  "thumbnail": "https://img.youtube.com/vi/YryHFSVpgAU/maxresdefault.jpg",
+  "tags": [
+   "automation",
+   "ecommerce",
+   "support"
+  ],
+  "insights": [
+   "AI agents can replace expensive outsourced customer support, achieving high automation rates and significant cost savings.",
+   "Operational issues like warehouse delays can reduce AI resolution rates, highlighting the need for proactive customer communication.",
+   "Combining multiple platforms (Tidio, UChat) enables comprehensive automation across web and social channels."
+  ],
+  "outcomes": [
+   "75% automation in month one",
+   "€25K/month saved",
+   "82% AI resolution rate"
+  ],
+  "approach": "Automating customer support for an online store selling watches and jewelry, including FAQs, order status, and proactive sales support.",
+  "solutionName": "E-commerce Customer Support Automation",
+  "stack": [
+   "Tidio",
+   "UChat",
+   "Shopify API"
+  ],
+  "steps": [
+   "Automate responses to FAQs",
+   "Provide real-time order status updates",
+   "Handle return and cancellation requests",
+   "Proactively assist with sales and product recommendations"
+  ],
+  "channels": [
+   "Shopify website chat",
+   "Instagram comments and DMs"
+  ],
+  "enablingTech": [
+   {
+    "label": "AI Chatbot Platforms",
+    "text": "Tidio and UChat were integrated to provide AI-driven customer support across Shopify and Instagram."
+   }
+  ],
+  "orgPrereq": "The organization transitioned from a large outsourced support team to a lean in-house model, relying on AI for most interactions and a single human for escalations, fundamentally changing support operations and cost structure.",
+  "whyItMatters": "Replacing outsourced customer support with an AI agent led to significant cost savings, faster response times, and improved scalability during peak sales periods. The AI agent also contributed to increased sales by assisting customers pre-purchase.",
+  "owner": {
+   "role": "Client seeking to automate customer support",
+   "context": "Responsible for customer service costs and experience during sales peaks",
+   "persona": "E-commerce Operations Manager"
+  },
+  "pitfalls": [
+   {
+    "label": "AI Resolution Rate Drops During Operational Issues",
+    "text": "AI agent's effectiveness decreases when operational issues (e.g., warehouse delays) prevent it from resolving customer queries, leading to more human escalations."
+   }
+  ],
+  "quotes": [
+   {
+    "quote": "We automated 75% of all interactions in the first month of launching the agent.",
+    "speaker": null,
+    "t": 6
+   },
+   {
+    "quote": "From 25,000 euros a month to a one person in house team, yeah, that's just awesome.",
+    "speaker": null,
+    "t": 446
+   }
+  ],
+  "enrichment": {
+   "roi": {
+    "formula": "ROI = (value of the outcome) - (platform usage + integration build + ongoing ops)",
+    "missing": "Actual platform spend, integration costs, ongoing operational costs, and how savings were calculated",
+    "claimed_benefit": "€25,000 saved per month"
+   },
+   "cost": {
+    "note": "Not disclosed did not disclose spend.",
+    "drivers": [
+     "Platform licensing and usage fees (Tidio, UChat)",
+     "Integration build and customization",
+     "Ongoing operations and maintenance"
+    ],
+    "disclosed": false
+   },
+   "deployer": "Not disclosed",
+   "provenance": "FieldNote analyst layer: market context, cost/ROI framework, readiness and metric definitions, compiled from the record plus general category knowledge. Not the deployer words unless quoted.",
+   "alternatives": [
+    {
+     "used": "Tidio",
+     "options": [
+      "Zendesk Chat",
+      "Intercom",
+      "Drift",
+      "LiveChat"
+     ],
+     "category": "E-commerce Chatbot Platform"
+    },
+    {
+     "used": "UChat",
+     "options": [
+      "ManyChat",
+      "Chatfuel",
+      "Botpress"
+     ],
+     "category": "Omnichannel Chatbot Builder"
+    },
+    {
+     "used": "Shopify API",
+     "options": [
+      "WooCommerce REST API",
+      "BigCommerce API",
+      "Magento API"
+     ],
+     "category": "E-commerce Platform API"
+    }
+   ],
+   "prerequisites": [
+    "Access to Shopify store and API credentials",
+    "Technical team familiar with chatbot integration",
+    "Defined customer support workflows and FAQs",
+    "User permissions for Tidio and UChat platforms"
+   ],
+   "time_to_value": "Not disclosed",
+   "metric_definitions": [
+    {
+     "means": "Claimed monthly cost savings, typically from automation or support deflection. Hygiene caveat: 'Savings' may reflect deflection (cases avoided), but does not guarantee resolution or customer satisfaction. Efficiency gains do not always equal quality or improved customer experience. Ask for deflection, resolution, and CSAT metrics for a full picture.",
+     "metric": "€25,000 saved per month"
+    }
+   ]
+  }
+ },
+ {
+  "id": "vOgmka8O2qg",
+  "title": "DIY AI vs Enterprise Agents: Why Fisher & Paykel Partnered with Salesforce",
+  "headline": "Fisher & Paykel scales customer service with AI agents",
+  "summary": "AI agents now resolve customer queries in days, not months. Voice agents are next.",
+  "company": "Fisher & Paykel",
+  "operator": "Rudy (Chief Digital Officer, Fisher & Paykel)",
+  "grade": "C",
+  "gradeRationale": "First-party qualitative account with no hard metrics, focused on experience and approach.",
+  "sourceType": "interview",
+  "recordedAt": "2025-02-15",
+  "event": "Salesforce Agent Force Customer Story Interview",
+  "func": "customer-support",
+  "videoUrl": "https://www.youtube.com/watch?v=vOgmka8O2qg",
+  "thumbnail": "https://img.youtube.com/vi/vOgmka8O2qg/maxresdefault.jpg",
+  "tags": [
+   "innovation",
+   "prototype",
+   "trust"
+  ],
+  "insights": [
+   "Rapid prototyping is essential for AI adoption; waiting for perfect data or full buy-in is unnecessary.",
+   "AI agents can significantly reduce contact center load and improve customer experience by providing fast, trusted answers.",
+   "Enterprise AI requires more than just LLMs; robust software stacks, guardrails, and trusted platforms are critical."
+  ],
+  "outcomes": [
+   "Rapid prototyping",
+   "Trusted data sources",
+   "Voice agents coming soon"
+  ],
+  "approach": "An AI-powered service agent deployed on the website to help customers quickly find answers and troubleshoot issues, reducing the load on human contact center agents.",
+  "solutionName": "AI Service Agent for Troubleshooting",
+  "stack": [
+   "Salesforce Agent Force",
+   "LLM-based agentic harness"
+  ],
+  "steps": [
+   "Answer customer queries",
+   "Guide troubleshooting steps",
+   "Provide information from trusted sources"
+  ],
+  "channels": [
+   "Website",
+   "Potential future: Voice/Phone"
+  ],
+  "enablingTech": [
+   {
+    "label": "Salesforce Agent Force",
+    "text": "A platform for building and deploying AI-powered agents with integrated LLMs, guardrails, and reasoning engines."
+   }
+  ],
+  "orgPrereq": "Adopting agentic AI requires iterative prototyping, cross-functional collaboration, and a willingness to expose and address data and process gaps as they arise.",
+  "whyItMatters": "Deploying agentic AI enables Fisher & Paykel to deliver faster, more accurate support, scale to new markets, and free up human agents for higher-value tasks, driving both customer satisfaction and business growth.",
+  "owner": {
+   "role": "Leads digital transformation and AI adoption at Fisher & Paykel",
+   "context": "Responsible for innovation, customer experience, and digital strategy",
+   "persona": "Chief Digital Officer",
+   "organization": "Fisher & Paykel"
+  },
+  "pitfalls": [
+   {
+    "label": "Data Readiness and Quality",
+    "text": "Organizations may believe they need perfect data before starting, but data structures often require re-engineering during deployment."
+   }
+  ],
+  "quotes": [
+   {
+    "quote": "The most powerful thing you can do is prototype.",
+    "speaker": null,
+    "t": 317
+   },
+   {
+    "quote": "Doing stuff as a consumer is very different to deploying in the enterprise. It's more than just the LLM, too.",
+    "speaker": null,
+    "t": 256
+   }
+  ],
+  "enrichment": {
+   "roi": {
+    "formula": "ROI = (value of the outcome) - (platform usage + integration build + ongoing ops)",
+    "missing": "No data on baseline costs, ongoing costs, or quantified value of faster deployment; no operational or financial impact stated.",
+    "claimed_benefit": "Initial deployment took months, now agents are created in weeks or days."
+   },
+   "cost": {
+    "note": "Fisher & Paykel did not disclose spend.",
+    "drivers": [
+     "Platform licensing/usage fees",
+     "Integration build and customization",
+     "Ongoing operations and support"
+    ],
+    "disclosed": false
+   },
+   "deployer": "Fisher & Paykel",
+   "provenance": "FieldNote analyst layer: market context, cost/ROI framework, readiness and metric definitions, compiled from the record plus general category knowledge. Not the deployer words unless quoted.",
+   "alternatives": [
+    {
+     "used": "Salesforce Agent Force",
+     "options": [
+      "Zendesk",
+      "ServiceNow",
+      "Freshdesk",
+      "Microsoft Dynamics 365 Customer Service"
+     ],
+     "category": "Enterprise Customer Service Platform"
+    }
+   ],
+   "prerequisites": [
+    "Access to and familiarity with Salesforce Agent Force",
+    "Capability to integrate LLM-based agentic harnesses",
+    "Availability of structured troubleshooting data or workflows",
+    "Team skilled in AI/ML deployment and support operations"
+   ],
+   "time_to_value": "Not disclosed",
+   "metric_definitions": [
+    {
+     "means": "The elapsed time required to create and launch new AI service agents. Note: Faster deployment does not guarantee agent quality, resolution rates, or customer satisfaction. Ask for deflection, resolution, and CSAT metrics to assess true impact.",
+     "metric": "Time to deploy new agents"
+    }
+   ]
+  }
+ },
+ {
+  "id": "SguyXovJKiY",
+  "title": "ServiceNow's Customer Zero approach to AI experimentation",
+  "headline": "How ServiceNow Uses Agentic AI to Transform Customer Experience",
+  "summary": "Ashraf Karim shares how ServiceNow leverages agentic AI and experimentation to deliver faster, more personalized support.",
+  "company": "ServiceNow",
+  "operator": "Ashraf Karim (Senior Vice President, Connected Customer Experiences and Technology, ServiceNow)",
+  "grade": "C",
+  "gradeRationale": "First-party qualitative account with some references to metrics but no hard numbers.",
+  "sourceType": "podcast",
+  "recordedAt": "2024-05-01",
+  "event": "Experimentation Edge Podcast",
+  "func": "customer-support",
+  "videoUrl": "https://www.youtube.com/watch?v=SguyXovJKiY",
+  "thumbnail": "https://img.youtube.com/vi/SguyXovJKiY/maxresdefault.jpg",
+  "tags": [
+   "agentic",
+   "experimentation",
+   "customer"
+  ],
+  "insights": [
+   "Agentic AI automates complex support tasks, reducing resolution time and improving customer experience.",
+   "Continuous experimentation and data-driven iteration are essential for successful AI adoption in enterprise support.",
+   "Building trust in AI requires transparency, validation, and user control, especially with non-deterministic models."
+  ],
+  "outcomes": [
+   "Agentic AI reduces support time",
+   "Customer effort score (CES) introduced",
+   "Continuous experimentation drives innovation"
+  ],
+  "approach": "Automated AI-driven skills analyze logs, resolve support cases, and recommend next actions to customers, reducing manual investigation time.",
+  "solutionName": "Agentic Skills for Customer Support",
+  "stack": [
+   "ServiceNow Simulation Studio",
+   "LLM Judge",
+   "Autonomous Case Resolution (ACR) platform"
+  ],
+  "steps": [
+   "Analyze Splunk log files for issues",
+   "Search historical records for similar problems",
+   "Recommend next best actions to users"
+  ],
+  "channels": [
+   "ServiceNow support portal",
+   "Developer instances",
+   "AI-powered chat interfaces"
+  ],
+  "enablingTech": [
+   {
+    "label": "Large Language Models (LLMs) and AI Evaluation",
+    "text": "LLMs power agentic skills, while internal LLM judges evaluate output quality and intent alignment."
+   }
+  ],
+  "orgPrereq": "Adopting agentic AI requires a mindset shift towards experimentation, continuous learning, and data-driven decision-making across product, engineering, and customer success teams.",
+  "whyItMatters": "Agentic AI enables faster, more personalized customer support, reduces operational costs, increases productivity, and unlocks new revenue opportunities through cross-sell and upsell at scale.",
+  "owner": {
+   "role": "Leads post-sale customer experience, AI/agentic workforce, and experimentation at ServiceNow",
+   "context": "Responsible for customer support, ServiceNow University, developer ecosystem, and driving AI adoption",
+   "persona": "Senior Technology Executive"
+  },
+  "pitfalls": [
+   {
+    "label": "Performance and Latency Issues",
+    "text": "AI skills may introduce latency, causing user frustration if tasks take too long, even if faster than manual processes."
+   }
+  ],
+  "quotes": [
+   {
+    "quote": "If you were to look at every single idea from the vantage point of feedback and learning, then you have not lost. You have only to gain.",
+    "speaker": null,
+    "t": 961
+   },
+   {
+    "quote": "Just do the work that you're supposed to do, and just tell me what I should do next, and what's my next best action, and or just guide me.",
+    "speaker": null,
+    "t": 820
+   }
+  ],
+  "enrichment": {
+   "roi": {
+    "formula": "ROI = (value of the outcome) - (platform usage + integration build + ongoing ops)",
+    "missing": "No data on baseline task volume, labor costs, platform spend, or operational savings; cannot compute true ROI.",
+    "claimed_benefit": "Reduced from hours to 5-20 minutes for complex tasks"
+   },
+   "cost": {
+    "note": "ServiceNow did not disclose spend.",
+    "drivers": [
+     "Platform licensing or subscription fees",
+     "Integration and customization build costs",
+     "Ongoing operations and support"
+    ],
+    "disclosed": false
+   },
+   "deployer": "ServiceNow",
+   "provenance": "FieldNote analyst layer: market context, cost/ROI framework, readiness and metric definitions, compiled from the record plus general category knowledge. Not the deployer words unless quoted.",
+   "alternatives": [
+    {
+     "used": "ServiceNow Simulation Studio",
+     "options": [
+      "Zendesk AI",
+      "Salesforce Service Cloud Einstein",
+      "Freshdesk Freddy AI",
+      "Genesys DX"
+     ],
+     "category": "Customer Support Simulation and Automation Platform"
+    },
+    {
+     "used": "LLM Judge",
+     "options": [
+      "Humanloop",
+      "TruEra",
+      "Arize AI"
+     ],
+     "category": "AI Output Evaluation/LLM Quality Assessment"
+    },
+    {
+     "used": "Autonomous Case Resolution (ACR) platform",
+     "options": [
+      "Moveworks",
+      "Aisera",
+      "IBM Watson Assistant",
+      "Ada"
+     ],
+     "category": "Automated Case Resolution/AI Customer Support Automation"
+    }
+   ],
+   "prerequisites": [
+    "Access to ServiceNow Simulation Studio and Autonomous Case Resolution platform",
+    "Availability of relevant customer support data for training and simulation",
+    "Integration capability with existing customer support workflows and systems",
+    "Team familiarity with LLM-based tools and agentic automation concepts",
+    "Defined metrics and baselines for measuring support process improvements"
+   ],
+   "time_to_value": "Not disclosed",
+   "metric_definitions": [
+    {
+     "means": "This refers to the reduction in time required to complete complex customer support tasks. Note: Time reduction (efficiency) does not guarantee quality, resolution, or customer satisfaction. Deflection, resolution, and containment are distinct; always verify which is being measured.",
+     "metric": "Reduced from hours to 5-20 minutes for complex tasks"
+    }
+   ]
+  }
+ },
+ {
+  "id": "ul33Jp346dQ",
+  "title": "TELUS Digital Reimagines Customer Experience with Gemini Enterprise",
+  "headline": "Agentic AI accelerates CX transformation at Telus Digital",
+  "summary": "With Google Gemini, Telus Digital slashes onboarding time and unlocks new CX opportunities through agentic AI.",
+  "company": "Telus Digital",
+  "operator": "Jamie Tim (SVP of Global Delivery and Operations, Telus Digital)",
+  "grade": "B",
+  "gradeRationale": "First-party Telus Digital SVP on their own CX deployment; vendor-hosted interview.",
+  "sourceType": "interview",
+  "recordedAt": "2024-05-01",
+  "event": "Google Enterprise CX Transformation Series",
+  "func": "customer-support",
+  "videoUrl": "https://www.youtube.com/watch?v=ul33Jp346dQ",
+  "thumbnail": "https://img.youtube.com/vi/ul33Jp346dQ/maxresdefault.jpg",
+  "tags": [
+   "agentic",
+   "onboarding",
+   "efficiency"
+  ],
+  "insights": [
+   "Agentic AI, powered by Google Gemini, accelerates onboarding and operational efficiency at Telus Digital.",
+   "AI-driven automation enables both cost savings and new revenue opportunities in customer experience.",
+   "Human oversight remains essential, even as agentic AI optimizes workflows and customer interactions."
+  ],
+  "outcomes": [
+   "Onboarding cut from months to days",
+   "Agentic AI drives efficiency",
+   "New revenue streams enabled"
+  ],
+  "approach": "Automating onboarding for new team members and enhancing the effectiveness of technical service reps using AI-powered agents.",
+  "solutionName": "Agentic Onboarding and Support Tools",
+  "stack": [
+   "Google Gemini",
+   "GCX suite"
+  ],
+  "steps": [
+   "Automate onboarding",
+   "Enhance support rep productivity",
+   "Reduce manual processes"
+  ],
+  "channels": [
+   "Internal platforms",
+   "Customer service interfaces"
+  ],
+  "enablingTech": [
+   {
+    "label": "Google Gemini",
+    "text": "A core AI platform enabling agentic creation, automation, and co-creation across the enterprise."
+   }
+  ],
+  "orgPrereq": "The adoption of agentic AI and Google Gemini has transformed internal workflows, enabled faster onboarding, and empowered teams to innovate and co-create solutions, leading to a more agile and efficient organization.",
+  "whyItMatters": "By leveraging Google Gemini and agentic AI, Telus Digital has accelerated onboarding, reduced duplicative work, improved first-time customer service, and unlocked new revenue opportunities while driving cost savings.",
+  "owner": {
+   "role": "Executive leader overseeing digital transformation and AI adoption",
+   "context": "Driving CX, AI, and operational efficiency initiatives across the enterprise",
+   "persona": "SVP of Global Delivery and Operations",
+   "organization": "Telus Digital"
+  },
+  "pitfalls": [
+   {
+    "label": "Human Value Add Still Needed",
+    "text": "Despite automation, there remains a need for human oversight and value addition, especially in complex or sensitive tasks."
+   }
+  ],
+  "quotes": [
+   {
+    "quote": "Gemini kind of fuels an an internal platform that we've used to enable agentic creation within the team.",
+    "speaker": null,
+    "t": 82
+   },
+   {
+    "quote": "With Google, Telus Digital has a new way to deliver CX transformation to our customers.",
+    "speaker": null,
+    "t": 176
+   }
+  ],
+  "enrichment": {
+   "roi": {
+    "formula": "ROI = (onboarding labor saved + new revenue) - (cloud usage + platform + integration)",
+    "missing": "Cost and the size of the revenue impact were not disclosed",
+    "claimed_benefit": "Onboarding cut from months to days; new revenue streams claimed"
+   },
+   "cost": {
+    "note": "Telus Digital did not disclose spend.",
+    "drivers": [
+     "Google Cloud and Gemini usage",
+     "CX platform licensing",
+     "Integration and change management"
+    ],
+    "disclosed": false
+   },
+   "provenance": "FieldNote analyst layer: market context, cost/ROI framework, readiness and metric definitions, compiled from the record plus general category knowledge. Not the deployer words unless quoted.",
+   "alternatives": [
+    {
+     "used": "Google Gemini",
+     "options": [
+      "OpenAI / Azure OpenAI",
+      "Anthropic Claude",
+      "AWS Bedrock"
+     ],
+     "category": "LLM / enterprise AI"
+    },
+    {
+     "used": "GCX suite",
+     "options": [
+      "Amazon Connect",
+      "Genesys Cloud CX",
+      "NICE CXone"
+     ],
+     "category": "Contact center / CX platform"
+    }
+   ],
+   "prerequisites": [
+    "A Google Cloud and Gemini environment",
+    "Training and onboarding content to automate",
+    "Integration with internal delivery tooling",
+    "Change management for the delivery team"
+   ],
+   "time_to_value": "Onboarding improvements reported in the near term; full rollout timeline not disclosed",
+   "metric_definitions": [
+    {
+     "means": "Time to ramp a new agent or client onto the platform. An internal efficiency metric, not a customer-facing deflection or CSAT result.",
+     "metric": "Onboarding time (months to days)"
+    }
+   ]
+  }
+ },
+ {
+  "id": "BNGxcUpS9_k",
+  "title": "New Way Now: Best Buy builds empathetic AI Customer Care with Gemini and Google Cloud Consulting",
+  "headline": "Best Buy boosts customer satisfaction with AI-powered support",
+  "summary": "Best Buy leverages Google Cloud AI to empower customers with empathetic, self-service support, achieving over 50% increase in containment.",
+  "company": "Best Buy",
+  "operator": "Maureen Spence (Senior Director of Product, Best Buy)",
+  "grade": "B",
+  "gradeRationale": "First-party Best Buy product leader on their own AI customer-care deployment; vendor-hosted interview.",
+  "sourceType": "interview",
+  "recordedAt": "2024-05-15",
+  "event": "Best Buy Customer Experience Innovation Interview",
+  "func": "customer-support",
+  "videoUrl": "https://www.youtube.com/watch?v=BNGxcUpS9_k",
+  "thumbnail": "https://img.youtube.com/vi/BNGxcUpS9_k/maxresdefault.jpg",
+  "tags": [
+   "AI",
+   "customer",
+   "technology"
+  ],
+  "insights": [
+   "AI-driven self-service significantly increases issue containment and customer satisfaction.",
+   "Empathetic AI interactions reduce call center volume and improve operational efficiency.",
+   "Partnerships with technology leaders like Google are critical for successful digital transformation."
+  ],
+  "outcomes": [
+   "AI-driven self-service",
+   "50%+ containment increase",
+   "Empathetic customer engagement"
+  ],
+  "approach": "Deploying Gemini enterprise AI and Google transcription to enable self-service, empathetic, and efficient customer support across multiple channels.",
+  "solutionName": "AI-Powered Customer Support",
+  "stack": [
+   "Gemini enterprise",
+   "Google transcription",
+   "BigQuery",
+   "Support Workbench"
+  ],
+  "steps": [
+   "Automated issue resolution",
+   "Voice transcription",
+   "Agent support tools",
+   "Data-driven insights"
+  ],
+  "channels": [
+   "Call center",
+   "Self-service portals",
+   "Customer care lines"
+  ],
+  "enablingTech": [
+   {
+    "label": "Gemini Enterprise AI",
+    "text": "Google's Gemini enterprise AI platform powers customer experience automation and empathy."
+   }
+  ],
+  "orgPrereq": "The adoption of AI and cloud technologies requires cross-functional collaboration, upskilling of support agents, and a shift in focus from manual support to technology-enabled service delivery.",
+  "whyItMatters": "By integrating advanced AI and analytics, Best Buy delivers faster, more empathetic support, reduces call volumes, and empowers customers to resolve issues independently, driving satisfaction and operational efficiency.",
+  "owner": {
+   "role": "Senior Director of Product",
+   "context": "Leads product and customer experience transformation, focusing on integrating technology and AI to improve customer support.",
+   "persona": "Maureen Spence",
+   "organization": "Best Buy"
+  },
+  "pitfalls": [
+   {
+    "label": "Technology Adoption and Integration",
+    "text": "Transitioning from legacy to current technology poses challenges in integration, user adoption, and ensuring seamless customer experiences."
+   }
+  ],
+  "quotes": [
+   {
+    "quote": "When you think about a call center, it's basically a microcosm of all the experiences and products you offer your customer.",
+    "speaker": null,
+    "t": 52
+   },
+   {
+    "quote": "Google Cloud Consulting has given us the opportunity to understand how our customers are engaging across those entry points and evolve those experiences.",
+    "speaker": null,
+    "t": 112
+   }
+  ],
+  "enrichment": {
+   "roi": {
+    "formula": "ROI = (contacts contained x cost per human-handled contact) - (cloud usage + integration + ops)",
+    "missing": "Cost, and the resolution quality behind the contained contacts, were not disclosed",
+    "claimed_benefit": "50%+ increase in containment"
+   },
+   "cost": {
+    "note": "Best Buy did not disclose spend.",
+    "drivers": [
+     "Google Cloud usage (Gemini, transcription, BigQuery)",
+     "Integration with CRM and case systems",
+     "Ongoing operations and tuning"
+    ],
+    "disclosed": false
+   },
+   "provenance": "FieldNote analyst layer: market context, cost/ROI framework, readiness and metric definitions, compiled from the record plus general category knowledge. Not the deployer words unless quoted.",
+   "alternatives": [
+    {
+     "used": "Gemini Enterprise",
+     "options": [
+      "Azure OpenAI",
+      "Anthropic Claude",
+      "AWS Bedrock"
+     ],
+     "category": "LLM / enterprise AI"
+    },
+    {
+     "used": "Google transcription",
+     "options": [
+      "Deepgram",
+      "AWS Transcribe",
+      "AssemblyAI"
+     ],
+     "category": "Speech-to-text"
+    },
+    {
+     "used": "BigQuery",
+     "options": [
+      "Snowflake",
+      "Amazon Redshift",
+      "Databricks"
+     ],
+     "category": "Data warehouse"
+    }
+   ],
+   "prerequisites": [
+    "A Google Cloud environment",
+    "A unified contact and transcription data pipeline (e.g. into BigQuery)",
+    "A current knowledge base for self-service",
+    "CRM and case-system integration"
+   ],
+   "time_to_value": "Not disclosed",
+   "metric_definitions": [
+    {
+     "means": "Share of contacts handled without a human agent. Containment is NOT resolution: a contained contact can still end unresolved if the customer gives up. Always ask for resolution or CSAT alongside it.",
+     "metric": "Containment (+50%)"
+    }
+   ]
+  }
+ },
+ {
+  "id": "e7iAM6-CB98",
+  "title": "Red Ventures Enables Digital-First Customer Experiences with LuminosAI",
+  "headline": "Red Ventures Scales Customer Service with Luminous AI Chatbot",
+  "summary": "Luminous enabled Red Ventures to deliver digital-first customer experiences and scale support without extra hires.",
+  "company": "Red Ventures",
+  "operator": "Zach Campbell (Director of Product Management, Red Ventures)",
+  "grade": "C",
+  "gradeRationale": "First-party product leader; outcomes qualitative with no hard metrics; vendor case-study format.",
+  "sourceType": "interview",
+  "recordedAt": "2024-05-15",
+  "event": "Red Ventures AI Product Case Study Series",
+  "func": "customer-support",
+  "videoUrl": "https://www.youtube.com/watch?v=e7iAM6-CB98",
+  "thumbnail": "https://img.youtube.com/vi/e7iAM6-CB98/maxresdefault.jpg",
+  "tags": [
+   "chatbot",
+   "scalability",
+   "experience"
+  ],
+  "insights": [
+   "AI chatbots can scale customer service without increasing operational costs.",
+   "Digital-first experiences are now a baseline expectation for consumers.",
+   "Ease of deployment and immediate results are critical for product managers adopting AI."
+  ],
+  "outcomes": [
+   "Immediate, intelligible results",
+   "No added operational overhead",
+   "Digital-first channel for consumers"
+  ],
+  "approach": "Deployment of a chatbot to handle customer inquiries, reducing the need for additional human agents and providing a digital-first experience.",
+  "solutionName": "Conversational AI Chatbot for Customer Service",
+  "stack": [
+   "Luminous AI platform"
+  ],
+  "steps": [
+   "Answering customer questions",
+   "Providing support via chat",
+   "Uploading and analyzing chatbot outputs"
+  ],
+  "channels": [
+   "Digital chat",
+   "Web interface"
+  ],
+  "enablingTech": [
+   {
+    "label": "Luminous AI Platform",
+    "text": "A platform for deploying and managing conversational AI chatbots, including uploading outputs and analyzing performance."
+   }
+  ],
+  "orgPrereq": "The adoption of AI chatbots allowed Red Ventures to scale customer service operations efficiently, shifting resources from manual support to digital channels and enabling product managers to focus on optimizing user experience.",
+  "whyItMatters": "By integrating Luminous, Red Ventures scaled customer interactions without increasing costs, delivering a digital-first experience that meets modern consumer expectations.",
+  "owner": {
+   "role": "Oversees product strategy and implementation of AI solutions",
+   "context": "Responsible for scaling customer service channels and improving consumer experience",
+   "persona": "Director of Product Management",
+   "organization": "Red Ventures"
+  },
+  "pitfalls": [
+   {
+    "label": "Maintaining Response Quality",
+    "text": "Ensuring that AI-generated responses match the quality and accuracy expected by consumers and product managers."
+   }
+  ],
+  "quotes": [
+   {
+    "quote": "Getting results from Luminous was super easy. We had our outputs from the chatbot, we created a simple flat file for those, and we went ahead and uploaded them into the UI.",
+    "speaker": null,
+    "t": 72
+   },
+   {
+    "quote": "My aha moment with Luminous was uploading that first file and seeing the output. It was exactly as the team had promised.",
+    "speaker": null,
+    "t": 97
+   }
+  ],
+  "enrichment": {
+   "roi": {
+    "formula": "ROI = (contacts deflected x cost per human-handled contact) - (subscription + integration + upkeep)",
+    "missing": "No deflection, resolution or CSAT figures were disclosed",
+    "claimed_benefit": "No quantified outcome; claims are ease of deployment and no added operational overhead"
+   },
+   "cost": {
+    "note": "Red Ventures did not disclose spend; Luminous is a smaller vendor with non-public pricing.",
+    "drivers": [
+     "Luminous subscription or usage fees",
+     "Integration with support channels",
+     "Ongoing content upkeep"
+    ],
+    "disclosed": false
+   },
+   "provenance": "FieldNote analyst layer: market context, cost/ROI framework, readiness and metric definitions, compiled from the record plus general category knowledge. Not the deployer words unless quoted.",
+   "alternatives": [
+    {
+     "used": "Luminous AI platform",
+     "options": [
+      "Intercom Fin",
+      "Ada",
+      "Decagon",
+      "Sierra",
+      "Salesforce Agentforce"
+     ],
+     "category": "Customer-service chatbot platform"
+    }
+   ],
+   "prerequisites": [
+    "Content and FAQs for the chatbot to draw on",
+    "Integration with your support channels",
+    "A defined handoff to a human agent"
+   ],
+   "time_to_value": "Immediate results claimed (qualitative)",
+   "metric_definitions": [
+    {
+     "means": "This record is a product testimonial (immediate, intelligible results; no added overhead) with no numbers. Ask for deflection or CSAT before treating it as evidence of impact.",
+     "metric": "No quantified outcome"
+    }
+   ]
+  }
+ },
+ {
+  "id": "rAUyRDOFyHU",
+  "title": "Agents in Orbit: Workflows, Not Autopilot — Eduardo Simon & Javier Casal, Flywire",
+  "headline": "Flywire's Orbit automates engineering workflows with agentic AI",
+  "summary": "Orbit delivers safe, compliant automation for engineering, achieving 11,000+ runs and 99% success in 30 days.",
+  "company": "Flywire",
+  "operator": "Edu (AI Platform Experience Team Lead, Flywire)",
+  "grade": "B",
+  "gradeRationale": "First-party operators describing their own deployment with specific metrics; not independently audited.",
+  "sourceType": "keynote",
+  "recordedAt": "2023-10-01",
+  "event": "Flywire Engineering AI Platform Keynote",
+  "func": "software-engineering",
+  "videoUrl": "https://www.youtube.com/watch?v=rAUyRDOFyHU",
+  "thumbnail": "https://img.youtube.com/vi/rAUyRDOFyHU/maxresdefault.jpg",
+  "tags": [
+   "automation",
+   "compliance",
+   "workflows"
+  ],
+  "insights": [
+   "Agentic AI workflows combine deterministic code with LLM reasoning for safe, reliable automation.",
+   "Keeping sensitive data within internal infrastructure is critical for compliance in regulated industries.",
+   "Automated workflows deliver measurable productivity gains and enable engineering at scale."
+  ],
+  "outcomes": [
+   "Agentic AI with deterministic code",
+   "Sensitive data stays internal",
+   "99% workflow success rate"
+  ],
+  "approach": "An internal agent reviews code on merge requests, classifies risk, loads prior findings, and posts structured feedback, keeping humans in the loop for approvals.",
+  "solutionName": "Automated Code Review",
+  "stack": [
+   "LLM via clot agents SDK",
+   "Internal MCP server"
+  ],
+  "steps": [
+   "Triggered by GitLab webhook",
+   "Fetches metadata",
+   "Classifies risk",
+   "Loads findings",
+   "Clones repository",
+   "LLM step for review",
+   "Posts findings"
+  ],
+  "channels": [
+   "GitLab",
+   "Slack"
+  ],
+  "enablingTech": [
+   {
+    "label": "",
+    "text": "Elastic container orchestration for scalable agent execution."
+   },
+   {
+    "label": "",
+    "text": "Used for reasoning steps within workflows, invoked only where needed."
+   },
+   {
+    "label": "",
+    "text": "Harness for LLM steps, providing tool usage, subagents, and skills."
+   },
+   {
+    "label": "",
+    "text": "Internal platform as a service built on GitLab and AWS, standardizing build and deployment."
+   }
+  ],
+  "orgPrereq": "The adoption of agentic workflows has enabled a self-service model, empowering engineers across multiple departments to build and maintain custom automation safely. Standardized guardrails and review processes ensure compliance and reliability, while fostering innovation and collaboration.",
+  "whyItMatters": "Structured workflow automation delivers significant enterprise value by reducing toil, increasing engineering productivity, and ensuring compliance. By keeping sensitive data within Flywire's infrastructure and automating repetitive tasks, the platform enables engineers to focus on higher-value work while maintaining safety and reliability.",
+  "owner": {
+   "role": "User and contributor of agentic workflows",
+   "context": "Engineers at Flywire use and help build automated workflows to streamline repetitive tasks, ensuring compliance and reliability.",
+   "persona": "Software Engineer"
+  },
+  "pitfalls": [
+   {
+    "label": "Data Privacy and Compliance",
+    "text": "Strict regulatory requirements prevent sending sensitive data to third-party services, requiring robust governance and architectural boundaries."
+   },
+   {
+    "label": "Platform Misuse and Resource Limits",
+    "text": "Without guardrails, automation could be misused, leading to excessive resource consumption or duplicate executions."
+   },
+   {
+    "label": "Model Selection and Cost Control",
+    "text": "Choosing overly capable models for every step can increase costs; careful model selection is needed for cost control."
+   }
+  ],
+  "quotes": [
+   {
+    "quote": "Start small. Pick a repetitive well-defined task and prove it works before you scale it.",
+    "speaker": null,
+    "t": 1098
+   },
+   {
+    "quote": "Use the model only where it adds value. Everything predictable stays as code and that is what keeps the workflows reliable.",
+    "speaker": null,
+    "t": 1105
+   },
+   {
+    "quote": "Keep guard rails and humans in the loop. Owners limits and may request abuse. That is how we move from AI experiments to workflows our engineerings use every day.",
+    "speaker": null,
+    "t": 1112
+   }
+  ],
+  "enrichment": {
+   "roi": {
+    "formula": "ROI = (engineer hours saved x loaded hourly cost) - (API usage + infra + engineering)",
+    "missing": "Cost and the labor baseline were not disclosed",
+    "claimed_benefit": "99% workflow success across 11,000+ runs in 30 days (engineering automation)"
+   },
+   "cost": {
+    "note": "Flywire did not disclose spend.",
+    "drivers": [
+     "LLM API usage",
+     "Internal infrastructure",
+     "Engineering time to build and maintain"
+    ],
+    "disclosed": false
+   },
+   "provenance": "FieldNote analyst layer: market context, cost/ROI framework, readiness and metric definitions, compiled from the record plus general category knowledge. Not the deployer words unless quoted.",
+   "alternatives": [
+    {
+     "used": "LLM via Claude Agent SDK",
+     "options": [
+      "OpenAI Agents / Assistants",
+      "LangGraph",
+      "Custom orchestration"
+     ],
+     "category": "Agent framework"
+    },
+    {
+     "used": "Internal MCP server",
+     "options": [
+      "Custom tool APIs",
+      "Function-calling endpoints"
+     ],
+     "category": "Tool and integration layer"
+    }
+   ],
+   "prerequisites": [
+    "Internal tooling exposed to the agent (e.g. an MCP server)",
+    "Clear boundaries between deterministic code and LLM reasoning",
+    "Guardrails, owners and limits for each workflow",
+    "Human-in-the-loop review"
+   ],
+   "time_to_value": "99% workflow success within 30 days (per the record)",
+   "metric_definitions": [
+    {
+     "means": "Share of automated engineering workflow runs that completed successfully. This is an internal reliability metric for engineering automation, not a customer-support outcome; this record is off-domain for customer support.",
+     "metric": "Workflow success rate (99%)"
+    }
+   ]
+  }
+ },
+ {
+  "id": "u5LCF5raoeM",
+  "title": "AWS re:Invent 2025 - UC San Diego Health modernizes patient engagement with Amazon Connect Customer",
+  "headline": "UC San Diego Health saves 300,000+ staff hours with AI-powered patient engagement",
+  "summary": "UCSD Health leverages Amazon Connect and agentic AI to automate patient scheduling and verification, boosting efficiency and patient satisfaction.",
+  "company": "UC San Diego Health",
+  "operator": "Katrina Bidwell (Operations Director, UC San Diego Health)",
+  "grade": "B",
+  "gradeRationale": "Named customer operator (UC San Diego Health) with quantified outcomes; presented at a vendor event.",
+  "sourceType": "keynote",
+  "recordedAt": "2023-11-28",
+  "event": "AWS re:Invent",
+  "func": "customer-support",
+  "videoUrl": "https://www.youtube.com/watch?v=u5LCF5raoeM",
+  "thumbnail": "https://img.youtube.com/vi/u5LCF5raoeM/maxresdefault.jpg",
+  "tags": [
+   "automation",
+   "healthcare",
+   "integration"
+  ],
+  "insights": [
+   "Agentic AI enables healthcare organizations to automate high-volume, routine patient interactions, freeing staff for more complex care.",
+   "Unified cloud-based contact centers integrated with EHRs improve patient experience, operational efficiency, and data-driven decision-making.",
+   "Adoption of AI in healthcare is accelerating, with measurable impacts on service levels, staff utilization, and patient satisfaction."
+  ],
+  "outcomes": [
+   "300,000+ staff hours saved",
+   "82% self-verification rate",
+   "50% reduction in abandonment"
+  ],
+  "approach": "AI agents automate patient verification, appointment scheduling, rescheduling, and information retrieval, integrating with Epic EHR to provide seamless, self-service experiences.",
+  "solutionName": "Automated Patient Scheduling and Verification",
+  "stack": [
+   "Amazon Connect",
+   "Epic EHR APIs",
+   "AWS KMS",
+   "Contact Lens"
+  ],
+  "steps": [
+   "Patient self-verification",
+   "Appointment scheduling and rescheduling",
+   "Appointment reminders",
+   "Information retrieval",
+   "Escalation to human agents"
+  ],
+  "channels": [
+   "Voice",
+   "Digital messaging"
+  ],
+  "enablingTech": [
+   {
+    "label": "Amazon Connect and Epic EHR Integration",
+    "text": "Cloud-based contact center platform integrated with Epic EHR via real-time APIs, leveraging AWS KMS for security and Contact Lens for analytics."
+   }
+  ],
+  "orgPrereq": "Transitioning to agentic AI and unified contact center platforms requires cross-functional collaboration, new skillsets, and a shift toward data-driven, patient-centric operations, enabling scalability and agility.",
+  "whyItMatters": "Implementing agentic AI in Amazon Connect enables healthcare organizations to reduce operational costs, improve service levels, and deliver a more seamless, patient-centric experience, building trust and loyalty while freeing staff for higher-value tasks.",
+  "owner": {
+   "role": "Leads care navigation and contact center transformation",
+   "context": "Responsible for improving patient engagement and operational efficiency",
+   "persona": "Healthcare Operations Director",
+   "organization": "UC San Diego Health"
+  },
+  "pitfalls": [
+   {
+    "label": "Integration Complexity and Change Management",
+    "text": "Implementing unified AI-driven systems requires overcoming legacy infrastructure, ensuring data security, and managing organizational change."
+   }
+  ],
+  "quotes": [
+   {
+    "quote": "Healthcare is where tech comes to die. And then we revive it.",
+    "speaker": "Katrina Bidwell",
+    "t": 959
+   },
+   {
+    "quote": "When the contact center is already handling more and more of these patient interactions, it stops being just a contact center and it becomes that front door to care.",
+    "speaker": "Chris Rollo",
+    "t": 417
+   }
+  ],
+  "enrichment": {
+   "roi": {
+    "formula": "ROI = (hours saved x fully-loaded hourly cost) - (platform usage + integration build + ongoing ops)",
+    "missing": "Build and run cost were not disclosed, so a true ROI cannot be computed from this source",
+    "claimed_benefit": "300,000+ staff hours saved in the first year; the operator framed this as the cost of fully-benefited FTE hours"
+   },
+   "cost": {
+    "note": "UC San Diego Health did not disclose spend.",
+    "drivers": [
+     "Platform usage: Amazon Connect is usage-based (per voice minute and per message), no upfront licence; pricing is public",
+     "EHR integration build: Epic API work via internal engineering or a systems integrator, usually the largest line item",
+     "Ongoing operations: tuning, monitoring, and prompt/model upkeep"
+    ],
+    "disclosed": false
+   },
+   "provenance": "FieldNote analyst layer: market context, cost/ROI framework, readiness and metric definitions, compiled from the record plus general category knowledge and public vendor pricing. Not the deployer words unless quoted.",
+   "alternatives": [
+    {
+     "used": "Amazon Connect",
+     "options": [
+      "Genesys Cloud CX",
+      "NICE CXone",
+      "Five9",
+      "Twilio Flex",
+      "Google Cloud CCAI Platform"
+     ],
+     "category": "Cloud contact center platform"
+    },
+    {
+     "used": "Contact Lens",
+     "options": [
+      "Google CCAI Insights",
+      "Observe.AI",
+      "CallMiner"
+     ],
+     "category": "Conversation analytics"
+    },
+    {
+     "used": "AWS KMS",
+     "options": [
+      "Azure Key Vault",
+      "Google Cloud KMS",
+      "HashiCorp Vault"
+     ],
+     "category": "Key management and encryption"
+    },
+    {
+     "used": "Epic EHR APIs",
+     "options": [
+      "Direct Epic APIs",
+      "Redox",
+      "Health Gorilla"
+     ],
+     "category": "System-of-record integration"
+    }
+   ],
+   "prerequisites": [
+    "Epic EHR integration readiness and API access",
+    "Clean, current patient and scheduling data",
+    "Defined escalation paths from AI to a human agent",
+    "HIPAA and PHI controls (encryption at rest and in transit)",
+    "A cross-functional team across operations, IT and clinical"
+   ],
+   "time_to_value": "Benefits reported within the first year of implementation",
+   "metric_definitions": [
+    {
+     "means": "Share of patients who completed identity and appointment verification via the AI without a human. A deflection-style metric; it does not by itself mean the underlying problem was resolved.",
+     "metric": "Self-verification rate (82%)"
+    },
+    {
+     "means": "A labor-efficiency metric, not a care-quality or resolution metric. Its value depends on the fully-loaded hourly cost you assign.",
+     "metric": "Staff hours saved (300,000+)"
+    },
+    {
+     "means": "Fewer callers who hung up before being served. An access metric; pair it with resolution and CSAT to judge quality.",
+     "metric": "Abandonment reduction (50%)"
+    }
+   ]
+  }
+ }
+]
